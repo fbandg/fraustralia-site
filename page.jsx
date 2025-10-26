@@ -62,7 +62,7 @@ export default function Page() {
 
       {/* Hero */}
       <section className="relative overflow-hidden" style={{background: `linear-gradient(135deg, ${BRAND.dark} 0%, #1f2326 40%, ${BRAND.orange} 140%)`}}>
-        <div className="absolute inset-0 opacity-10" style={{backgroundImage: "radial-gradient(circle at 20% 20%, white, transparent 30%)"}}/>
+        <div className="absolute inset-0 opacity-10" style={{backgroundImage: "radial-gradient(circle at 20% 20%, white, transparent 30%)"}} />
         <div className="max-w-7xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
           <div className="text-white">
             <h1 className="text-4xl md:text-6xl font-black leading-tight">Panel Installation<br/> Done <span className="whitespace-nowrap">Right—Safely.</span></h1>
@@ -92,7 +92,7 @@ export default function Page() {
                   {icon: Shield, title: "Safety Delivery", desc: "SWMS, SSSP, lift plans, QA packs"},
                 ].map(({icon:Icon,title,desc},i)=> (
                   <div key={i} className="rounded-2xl bg-white/10 p-4 border border-white/10">
-                    <Icon className="mb-2"/>
+                    <Icon className="mb-2" />
                     <div className="font-bold">{title}</div>
                     <div className="text-sm text-white/80">{desc}</div>
                   </div>
@@ -108,7 +108,7 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-end justify-between">
             <h2 className="text-3xl md:text-4xl font-black tracking-tight">Services</h2>
-            <a href="#quote" className="hidden md:inline-flex items-center gap-2 font-semibold" style={{color: BRAND.orange}}>Request a quote <ChevronRight size={18}/></a>
+            <a href="#quote" className="hidden md:inline-flex items-center gap-2 font-semibold" style={{color: BRAND.orange}}>Request a quote <ChevronRight size={18} /></a>
           </div>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             {[
@@ -176,16 +176,16 @@ export default function Page() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-end justify-between">
             <h2 className="text-3xl md:text-4xl font-black tracking-tight">Featured Projects</h2>
-            <a href="#contact" className="hidden md:inline-flex items-center gap-2 font-semibold" style={{color: BRAND.orange}}>Discuss your build <ChevronRight size={18}/></a>
+            <a href="#contact" className="hidden md:inline-flex items-center gap-2 font-semibold" style={{color: BRAND.orange}}>Discuss your build <ChevronRight size={18} /></a>
           </div>
           <div className="mt-8 grid md:grid-cols-3 gap-6">
             {Array.from({length:3}).map((_,i)=> (
               <div key={i} className="group rounded-3xl overflow-hidden border border-gray-200 shadow-sm">
-                <div className="h-44 bg-gray-200"/>
+                <div className="h-44 bg-gray-200" />
                 <div className="p-5">
                   <div className="font-extrabold">Industrial Facility #{i+1}</div>
                   <div className="text-sm text-gray-600 mt-1">Insulated panel roof & wall system, fast-track program, QA close-out.</div>
-                  <a href="#" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold" style={{color: BRAND.orange}}>View details <ChevronRight size={16}/></a>
+                  <a href="#" className="mt-3 inline-flex items-center gap-2 text-sm font-semibold" style={{color: BRAND.orange}}>View details <ChevronRight size={16} /></a>
                 </div>
               </div>
             ))}
@@ -194,69 +194,69 @@ export default function Page() {
       </section>
 
       {/* Capability CTA */}
-      <section id=\"capability\" className=\"py-14\" style={{background: `linear-gradient(135deg, ${BRAND.lightGray}, #ffffff)`}}>
-        <div className=\"max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center\">
+      <section id="capability" className="py-14" style={{background: `linear-gradient(135deg, ${BRAND.lightGray}, #ffffff)`}}>
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h3 className=\"text-2xl md:text-3xl font-black\">Download our Capability Statement</h3>
-            <p className=\"mt-2 text-gray-600\">Includes services, safety systems, insurances, and sample QA pack. Perfect for tenders and prequal.</p>
+            <h3 className="text-2xl md:text-3xl font-black">Download our Capability Statement</h3>
+            <p className="mt-2 text-gray-600">Includes services, safety systems, insurances, and sample QA pack. Perfect for tenders and prequal.</p>
           </div>
-          <div className=\"md:text-right\">
-            <a href=\"#\" className=\"inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold text-white shadow\" style={{backgroundColor: BRAND.dark}}>Download PDF <Download size={18}/></a>
+          <div className="md:text-right">
+            <a href="#" className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-semibold text-white shadow" style={{backgroundColor: BRAND.dark}}>Download PDF <Download size={18} /></a>
           </div>
         </div>
       </section>
 
       {/* Contact */}
-      <section id=\"contact\" className=\"py-16 md:py-20\">
-        <div className=\"max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10\">
+      <section id="contact" className="py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10">
           <div>
-            <h2 className=\"text-3xl md:text-4xl font-black tracking-tight\">Contact</h2>
-            <p className=\"mt-3 text-gray-600\">Send plans, RFQs, or invite us to tender. We’ll respond quickly with scope review and program options.</p>
-            <div className=\"mt-6 space-y-3 text-sm\">
-              <div className=\"flex items-center gap-3\"><Phone size={18}/> <span>+61 (0) 400 000 000</span></div>
-              <div className=\"flex items-center gap-3\"><Mail size={18}/> <span>tenders@fraustralia.com.au</span></div>
+            <h2 className="text-3xl md:text-4xl font-black tracking-tight">Contact</h2>
+            <p className="mt-3 text-gray-600">Send plans, RFQs, or invite us to tender. We’ll respond quickly with scope review and program options.</p>
+            <div className="mt-6 space-y-3 text-sm">
+              <div className="flex items-center gap-3"><Phone size={18} /> <span>+61 (0) 400 000 000</span></div>
+              <div className="flex items-center gap-3"><Mail size={18} /> <span>tenders@fraustralia.com.au</span></div>
             </div>
           </div>
 
-          <form id=\"quote\" className=\"rounded-3xl p-6 border border-gray-200 shadow-sm bg-white\">
-            <div className=\"grid grid-cols-1 gap-4\">
+          <form id="quote" className="rounded-3xl p-6 border border-gray-200 shadow-sm bg-white">
+            <div className="grid grid-cols-1 gap-4">
               <div>
-                <label className=\"text-sm font-semibold\">Name</label>
-                <input className=\"mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3\" placeholder=\"Site/PM name\" />
+                <label className="text-sm font-semibold">Name</label>
+                <input className="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3" placeholder="Site/PM name" />
               </div>
-              <div className=\"grid md:grid-cols-2 gap-4\">
+              <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className=\"text-sm font-semibold\">Email</label>
-                  <input type=\"email\" className=\"mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3\" placeholder=\"name@company.com\" />
+                  <label className="text-sm font-semibold">Email</label>
+                  <input type="email" className="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3" placeholder="name@company.com" />
                 </div>
                 <div>
-                  <label className=\"text-sm font-semibold\">Phone</label>
-                  <input className=\"mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3\" placeholder=\"+61\" />
+                  <label className="text-sm font-semibold">Phone</label>
+                  <input className="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3" placeholder="+61" />
                 </div>
               </div>
               <div>
-                <label className=\"text-sm font-semibold\">Project Location</label>
-                <input className=\"mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3\" placeholder=\"City / Site address\" />
+                <label className="text-sm font-semibold">Project Location</label>
+                <input className="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3" placeholder="City / Site address" />
               </div>
               <div>
-                <label className=\"text-sm font-semibold\">Scope Summary</label>
-                <textarea className=\"mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3\" rows={4} placeholder=\"Panels/cladding, m², program, access, craneage, etc.\" />
+                <label className="text-sm font-semibold">Scope Summary</label>
+                <textarea className="mt-1 w-full rounded-xl border-gray-300 focus:ring-2 focus:ring-gray-300 p-3" rows={4} placeholder="Panels/cladding, m², program, access, craneage, etc." />
               </div>
-              <button type=\"button\" className=\"inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-semibold text-white\" style={{backgroundColor: BRAND.orange}}>Submit Enquiry <ArrowRight size={18}/></button>
+              <button type="button" className="inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 font-semibold text-white" style={{backgroundColor: BRAND.orange}}>Submit Enquiry <ArrowRight size={18} /></button>
             </div>
           </form>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className=\"py-10\" style={{backgroundColor: BRAND.dark}}>
-        <div className=\"max-w-7xl mx-auto px-4 text-gray-200\">
-          <div className=\"flex flex-col md:flex-rowow md:items-center md:justify-between gap-6\">
+      <footer className="py-10" style={{backgroundColor: BRAND.dark}}>
+        <div className="max-w-7xl mx-auto px-4 text-gray-200">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
-              <div className=\"font-extrabold tracking-tight\" style={{color: BRAND.orange}}>F&R AUSTRALIA</div>
-              <div className=\"text-xs\">ABN: 691 545 436</div>
+              <div className="font-extrabold tracking-tight" style={{color: BRAND.orange}}>F&R AUSTRALIA</div>
+              <div className="text-xs">ABN: 691 545 436</div>
             </div>
-            <div className=\"text-sm\">© {new Date().getFullYear()} F&R Australia. All rights reserved.</div>
+            <div className="text-sm">© {new Date().getFullYear()} F&R Australia. All rights reserved.</div>
           </div>
         </div>
       </footer>
